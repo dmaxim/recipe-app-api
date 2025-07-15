@@ -22,3 +22,8 @@ uv add -r requirements.txt
 ````
 docker compose run --rm app sh -c "flake8"
 ````
+
+## Init
+````
+docker compose run --rm app sh -c "django-admin startproject app ."
+````
